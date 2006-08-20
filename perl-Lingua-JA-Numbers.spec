@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	JA-Numbers
-Summary:	Lingua::JA::Numbers - Converts numeric values into their Japanese string equivalents and vice versa
+Summary:	Lingua::JA::Numbers - converts numeric values into their Japanese string equivalents and vice versa
+Summary(pl):	Lingua::JA::Numbers - zamiana warto¶ci liczbowych na japoñskie odpowiedniki i odwrotnie
 Name:		perl-Lingua-JA-Numbers
 Version:	0.04
 Release:	1
@@ -21,12 +22,20 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module converts Japanese text in UTF-8 (or romaji in ascii) to
+This module converts Japanese text in UTF-8 (or romaji in ASCII) to
 number, AND vice versa.
 
 Do not be confused with Lingua::JA::Number by Mike Schilli. This
 module is far more comprehensive. As of 0.03, it even does its
 to_string() upon request.
+
+%description -l pl
+Ten modu³ zamienia japoñski tekst w UTF-8 (lub romaji w ASCII) na
+liczby i odwrotnie.
+
+Nie nale¿y myliæ go z Lingua::JA::Number autorstwa Mike'a Schilli. Ten
+modu³ jest du¿o bardziej obszerny. Od wersji 0.03 nawet wywo³uje na
+¿±danie to_string().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
