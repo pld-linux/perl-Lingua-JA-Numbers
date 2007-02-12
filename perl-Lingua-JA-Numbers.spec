@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	JA-Numbers
 Summary:	Lingua::JA::Numbers - converts numeric values into their Japanese string equivalents and vice versa
-Summary(pl.UTF-8):   Lingua::JA::Numbers - zamiana wartości liczbowych na japońskie odpowiedniki i odwrotnie
+Summary(pl.UTF-8):	Lingua::JA::Numbers - zamiana wartości liczbowych na japońskie odpowiedniki i odwrotnie
 Name:		perl-Lingua-JA-Numbers
 Version:	0.04
 Release:	1
