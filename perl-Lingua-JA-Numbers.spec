@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	JA-Numbers
 Summary:	Lingua::JA::Numbers - converts numeric values into their Japanese string equivalents and vice versa
-Summary(pl):	Lingua::JA::Numbers - zamiana warto∂ci liczbowych na japoÒskie odpowiedniki i odwrotnie
+Summary(pl.UTF-8):   Lingua::JA::Numbers - zamiana warto≈õci liczbowych na japo≈Ñskie odpowiedniki i odwrotnie
 Name:		perl-Lingua-JA-Numbers
 Version:	0.04
 Release:	1
@@ -29,13 +29,13 @@ Do not be confused with Lingua::JA::Number by Mike Schilli. This
 module is far more comprehensive. As of 0.03, it even does its
 to_string() upon request.
 
-%description -l pl
-Ten modu≥ zamienia japoÒski tekst w UTF-8 (lub romaji w ASCII) na
+%description -l pl.UTF-8
+Ten modu≈Ç zamienia japo≈Ñski tekst w UTF-8 (lub romaji w ASCII) na
 liczby i odwrotnie.
 
-Nie naleøy myliÊ go z Lingua::JA::Number autorstwa Mike'a Schilli. Ten
-modu≥ jest duøo bardziej obszerny. Od wersji 0.03 nawet wywo≥uje na
-ø±danie to_string().
+Nie nale≈ºy myliƒá go z Lingua::JA::Number autorstwa Mike'a Schilli. Ten
+modu≈Ç jest du≈ºo bardziej obszerny. Od wersji 0.03 nawet wywo≈Çuje na
+≈ºƒÖdanie to_string().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
