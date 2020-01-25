@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	JA-Numbers
 Summary:	Lingua::JA::Numbers - converts numeric values into their Japanese string equivalents and vice versa
