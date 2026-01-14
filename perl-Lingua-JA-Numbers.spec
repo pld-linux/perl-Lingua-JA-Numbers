@@ -8,7 +8,7 @@ Summary:	Lingua::JA::Numbers - converts numeric values into their Japanese strin
 Summary(pl.UTF-8):	Lingua::JA::Numbers - zamiana wartości liczbowych na japońskie odpowiedniki i odwrotnie
 Name:		perl-Lingua-JA-Numbers
 Version:	0.04
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
